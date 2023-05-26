@@ -1,4 +1,4 @@
-package com.kcode
+package com.kcode.core
 
 import io.smallrye.config.ConfigMapping
 import io.smallrye.config.WithName
