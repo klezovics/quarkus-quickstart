@@ -13,7 +13,6 @@ class GreetingController(
     @Autowired val greetingConfig: GreetingConfig,
     @Autowired val greetingService : GreetingService
 ) {
-
     @GetMapping
     fun hello() = "Hello ${greetingConfig.message()}"
 
